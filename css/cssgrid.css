@@ -8,6 +8,7 @@
   }
 html{
     height: 100%;
+
 }
 body {
     font-family: "Public Sans", sans-serif;
@@ -16,10 +17,10 @@ body {
   }
 
 .grid-container > * {
-      box-shadow: -1px 1px 7px 0px rgba(0,0,0,0.75);
+      box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.75);
       border-radius: 4px;
       padding: 10px;
-
+      border: 1px solid black;
   }
 
 .grid-container{
@@ -34,11 +35,11 @@ body {
 
 .header{
     grid-area: header;
-    background-color: #FFE3E3;
+    background-color: #F7F6F2;
 }
 .navbar{
     grid-area: navbar;
-    background-color: #E4D8DC;
+    background-color: #F7F6F2;
 }
 
 .aside{
@@ -48,12 +49,12 @@ body {
 
 .main{
     grid-area: main;
-    background-color: #FDEFEF;
+    background-color: #C8C6C6;
 }
 
 .footer{
     grid-area: footer;
-    background-color: #DAD0C2;
+    background-color: #F7F6F2;
 }
 
 @media(min-width: 600px){
