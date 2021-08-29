@@ -1,0 +1,21 @@
+body{
+  background-color: #F7F6F2;
+  text-align: center;
+}
+img{
+  width: 500px;
+  height:250px;
+}
+a{
+  color: #000000;
+  text-decoration: none;
+}
+a:hover{
+  color:red;
+}
+hr{
+  border-style: dotted none none none ;
+  border-color: #00303F;
+  border-width: 5px;
+  width: 400px;
+}
