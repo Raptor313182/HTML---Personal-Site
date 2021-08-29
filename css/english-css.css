@@ -1,6 +1,7 @@
 body{
   background-color: #F7F6F2;
-  text-align: center;
+      min-width: 1000px;
+      overflow: auto;
 }
 img{
   width: 500px;
@@ -18,4 +19,18 @@ hr{
   border-color: #00303F;
   border-width: 5px;
   width: 400px;
+text-align: center;
+}
+.colors{
+  height: 50px;
+  width: 50px
+}
+.radio{
+  border-radius:5px;
+}
+
+.scroll{
+  max-width: 550px;
+  max-height: 900px;
+  overflow-y: scroll;
 }
