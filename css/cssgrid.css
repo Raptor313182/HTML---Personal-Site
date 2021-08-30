@@ -8,7 +8,6 @@
   }
 html{
     height: 100%;
-
 }
 body {
     font-family: "Public Sans", sans-serif;
@@ -25,7 +24,7 @@ body {
 
 .grid-container{
       display: grid;
-      gap: 10px;
+      gap: 7px;
       grid-template-areas:
       "header"
       "navbar"
@@ -70,7 +69,7 @@ body {
       grid-template:
       "header header header" 100px
       "navbar main main" auto
-      "footer footer footer"100px /
+      "footer footer footer" 70px /
       200px auto 200px;
     }
 }
@@ -80,7 +79,7 @@ body {
       grid-template:
       "header header header" 100px
       "navbar main main" auto
-      "footer footer footer"100px /
-      300px auto 300px;
+      "footer footer footer" 100px /
+      300px auto 100px;
     }
 }
