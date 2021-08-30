@@ -23,7 +23,11 @@ text-align: center;
 }
 .colors{
   height: 50px;
-  width: 50px
+  width: 50px;
+}
+.imgbook{
+  height: 40px;
+  width: 40px;
 }
 .radio{
   border-radius:5px;
